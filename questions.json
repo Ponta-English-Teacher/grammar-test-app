@@ -503,8 +503,7 @@
       "plural"
     ]
   },
-  ,
- {
+  {
     "id": 27,
     "type": "MC",
     "questionText": "( ___ ) both parents are quite well-educated.",
@@ -523,7 +522,8 @@
       "possessive",
       "both"
     ]
-  },,{
+  },
+  {
     "id": 28,
     "type": "MC",
     "questionText": "The bus arrives ___ two hours.",
