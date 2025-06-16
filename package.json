@@ -1,0 +1,24 @@
+{
+  "name": "grammar_app",
+  "version": "1.0.0",
+  "main": "script.js",
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"  // ★この行を追加します★
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ponta-English-Teacher/grammar-test-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ponta-English-Teacher/grammar-test-app/issues"
+  },
+  "homepage": "https://github.com/Ponta-English-Teacher/grammar-test-app#readme",
+  "description": "",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
