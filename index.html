@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文法テストアプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>文法テスト</h1>
+        </header>
+
+        <main id="app-content">
+            <div id="start-screen" class="screen">
+                <h2>テストを開始</h2>
+                <label for="studentId">学籍番号:</label>
+                <input type="text" id="studentId" placeholder="例: 12345" required><br>
+                <label for="studentName">氏名:</label>
+                <input type="text" id="studentName" placeholder="例: 山田太郎" required><br>
+                <button id="startButton">テスト開始</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 文法テストアプリ</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

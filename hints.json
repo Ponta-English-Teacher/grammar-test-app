@@ -1,0 +1,94 @@
+[
+  {
+    "hintId": "no_plural_noun_agreement",
+    "hintText": "💡 When using 'no' with a countable noun, use the plural form when referring to items expected in quantity — like groceries, supplies, or animals. For example: 'No bananas are available.' The verb must match the plural noun. 'No banana is available' is grammatically possible, but sounds unnatural unless you're focusing on exactly one."
+  },
+  {
+    "hintId": "each_of_definiteness",
+    "hintText": "💡 Use 'each of the students' when referring to a specific, known group. This phrase is definite because both the speaker and listener know who 'the students' are. Use 'each student' when speaking indefinitely, about any student in general."
+  },
+  {
+    "hintId": "some_of_definiteness",
+    "hintText": "💡 Use \"some of the students\" when referring to a specific group that both the speaker and listener are aware of. Use \"some students\" when referring to an indefinite group — not clearly defined."
+  },
+  {
+    "hintId": "one_another_the_other",
+    "hintText": "💡 Use \"the other\" when talking about the second of two known items. Use \"another\" when referring to one more item out of more than two. Use \"others\" when talking about some remaining items from a larger group."
+  },
+  {
+    "hintId": "neither_nor_agreement",
+    "hintText": "💡 In \"Neither A nor B\" sentences, the verb agrees with the subject that is closer to it. If the second subject is plural, use a plural verb. Example: \"Neither the teacher nor the students are...\""
+  },
+  {
+    "hintId": "uncountable_noun_agreement",
+    "hintText": "💡 Uncountable nouns like \"information\", \"advice\", and \"furniture\" always take a singular verb — even with phrases like \"all of the\". To count them, we use unit expressions like: a piece of information/furniture/advice, a cup of tea/water, a load of bread. Example: \"All of the information is correct.\""
+  },
+  {
+    "hintId": "each_singular_pronoun",
+    "hintText": "💡 \"Each student\" is grammatically singular, so traditionally we use \"his or her\" to refer back. However, modern English now often uses \"their\" as a singular, gender-neutral pronoun. Both are widely accepted depending on the formality and style. Avoid \"their own\" in this structure — it creates redundancy."
+  },
+  {
+    "hintId": "all_plural_agreement",
+    "hintText": "💡 \"All (of) the students\" refers to a plural group, so the verb must also be plural (e.g., \"have\", \"are\"). Use singular verbs like \"has\" only with uncountable nouns (e.g., \"All the information has been updated.\")."
+  },
+  {
+    "hintId": "no_plural_agreement",
+    "hintText": "💡 When \"no\" is used with a plural noun (e.g., \"no manuscripts\", \"no students\"), treat the subject as plural and use a plural verb. Example: \"No manuscripts are available.\" If the noun is uncountable, use singular."
+  },
+  {
+    "hintId": "some_of_plural_agreement",
+    "hintText": "💡 \"Some of the students\" refers to a part of a known group and is treated as plural, so the verb should also be plural. Example: \"Some of the students are absent today.\""
+  },
+  {
+    "hintId": "either_of_singular_agreement",
+    "hintText": "💡 \"Either of\" means one or the other, not both. It takes a singular verb. Example: \"Either of the proposals is fine.\" In contrast, \"Both of\" refers to two items together and takes a plural verb. Example: \"Both of the proposals are strong.\""
+  },
+  {
+    "hintId": "both_of_plural_agreement",
+    "hintText": "💡 \"Both of\" refers to two items together, so always use a plural verb. Example: \"Both of the arguments were flawed.\" This contrasts with \"Either of\", which takes a singular verb."
+  },
+  {
+    "hintId": "none_plural_usage",
+    "hintText": "💡 \"None of\" is followed by a plural noun (\"students\") and usually takes a plural verb in modern English. Example: \"None of the students have arrived yet.\" Older grammar rules may allow singular verbs, but plural is preferred today."
+  },
+  {
+    "hintId": "quantifier_noun_agreement",
+    "hintText": "💡 When using quantifiers like none of, some of, most of, or all of, the verb must agree with the noun that follows: If it's plural, use a plural verb; if it's uncountable, use a singular verb. This applies to “None of,” “Most of,” “Half of,” “A lot of,” and similar expressions."
+  },
+  {
+    "hintId": "academic_plural_forms",
+    "hintText": "💡 Some academic words have irregular plural forms: • Datum → Data (modern English treats data as uncountable: \"The data is important.\") • Criterion → Criteria (\"One criterion is...\", \"Several criteria are...\") • Phenomenon → Phenomena (\"This phenomenon is...\", \"These phenomena are...\") • Medium → Media (now often treated as singular: \"The media is biased.\") 👉 Be careful: learners often treat these as singular incorrectly."
+  },
+  {
+    "hintId": "quantifier_plural_agreement",
+    "hintText": "💡 Quantifiers like several, many, and a few require plural countable nouns. Don’t use a singular or possessive form. Example: “Several students were...”"
+  },
+  {
+    "hintId": "number_expression_agreement",
+    "hintText": "💡 \"A number of\" takes a **plural verb** because it refers to several things (e.g., \"A number of students **are** late\"). \"The number of\" takes a **singular verb** because it refers to the total count (e.g., \"The number of students **is** increasing\")."
+  },
+  {
+    "hintId": "few_vs_little",
+    "hintText": "💡 Use few for countable nouns (e.g., “few students”) and little for uncountable nouns (e.g., “little time,” “little experience”)."
+  },
+  {
+    "hintId": "quite_a_few_plural",
+    "hintText": "💡 “Quite a few” means “many” and takes a **plural noun** with a **plural verb**. Example: “Quite a few students have already submitted.”"
+  },
+  {
+    "hintId": "much_negative_usage",
+    "hintText": "💡 Use “much” with uncountable nouns like “money” in negative or question forms. In positive sentences, say “a lot of money” instead of “much money”."
+  },
+  {
+    "hintId": "both_possessive_word_order",
+    "hintText": "💡 When using \"both\" with possessive pronouns like \"their\", \"both\" usually comes before the pronoun: \"Both their parents...\". \"Their both parents\" is incorrect."
+  },
+  {
+    "hintId": "every_plural_time",
+    "hintText": "💡 \"Every\" is usually followed by a singular noun, but when expressing multiples of time, use the plural noun: \"every two hours\", \"every three days\"."
+  },
+  {
+    "hintId": "some_others_distinction",
+    "hintText": "💡 When contrasting groups in a sentence: - Use “some” and “some” to refer to different subsets without implying a complete division of the whole group (e.g., “Some are smart, and some are honest”). - Use “some” and “others” or “some” and “the others” to indicate parts that together make up the entire group (e.g., “Some left early, and the others stayed”)."
+  }
+]

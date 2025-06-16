@@ -1,0 +1,227 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    color: #333;
+    /* text-align: center; ← bodyのテキストアラインは削除 */
+}
+
+#app-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    /* text-align: center; ← app-contentのテキストアラインは削除 */
+    box-sizing: border-box;
+}
+
+.screen h2 {
+    color: #0056b3;
+    margin-bottom: 20px;
+    text-align: center; /* タイトルは中央寄せを維持 */
+}
+
+.instruction {
+    margin-bottom: 25px;
+    font-size: 1.1em;
+    color: #555;
+    text-align: left; /* 左寄せに統一 */
+}
+
+.question-text {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left; /* 左寄せに統一 */
+}
+
+.choices button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+    text-align: left; /* 左寄せを維持 */
+}
+
+.choices button:hover:not(:disabled) {
+    background-color: #e9e9e9;
+    border-color: #ccc;
+}
+
+/* ユーザーが選択した選択肢のスタイル */
+.choices button.selected {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+    font-weight: bold;
+}
+
+/* 正解の選択肢のスタイル */
+.choices button.correct-answer {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+    font-weight: bold;
+}
+
+/* 不正解の選択肢のスタイル */
+.choices button.wrong-answer {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+    font-weight: bold;
+}
+
+/* 無効化されたボタンのスタイル */
+.choices button:disabled {
+    cursor: default;
+    opacity: 0.7;
+}
+
+#submitAnswerButton, #nextQuestionButton, #sendResultsButton, #restartTestButton {
+    padding: 12px 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    /* ボタンは中央寄せにするため、flexboxの親要素に配置するか、margin: 0 auto; を使う */
+    display: inline-block; /* ボタンをインラインブロックにして中央寄せを容易にする */
+}
+
+/* ボタンが並ぶ場合は、親要素にtext-align: center; を適用するか、flexboxを使う */
+/* 今回は#app-contentからtext-align: center;を削除したので、ボタンの親要素にcenterを適用 */
+.question-screen, .results-screen, #start-screen {
+    text-align: center; /* 画面全体のボタンやインプットなどは中央寄せに */
+}
+
+
+#submitAnswerButton {
+    background-color: #007bff;
+    color: white;
+}
+
+#submitAnswerButton:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+#nextQuestionButton, #sendResultsButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#nextQuestionButton:hover:not(:disabled), #sendResultsButton:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+#restartTestButton {
+    background-color: #6c757d;
+    color: white;
+    margin-left: 10px;
+}
+
+#restartTestButton:hover:not(:disabled) {
+    background-color: #5a6268;
+}
+
+#feedback-area {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: left; /* 左寄せに統一 */
+}
+
+.feedback {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.feedback.correct {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.feedback.wrong {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.hint {
+    background-color: #e2f0fb;
+    color: #004085;
+    border: 1px solid #b8daff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.95em;
+    text-align: left; /* 左寄せに統一 */
+}
+
+/* スタート画面の調整 */
+#start-screen input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    text-align: left; /* 入力欄のテキストも左寄せ */
+}
+
+#start-screen button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#start-screen button:hover {
+    background-color: #0056b3;
+}
+
+#submissionMessage {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center; /* 中央寄せを維持 */
+}
+
+.footer-info {
+    margin-top: 30px;
+    font-size: 0.85em;
+    color: #888;
+    text-align: center; /* 中央寄せを維持 */
+}
+
+/* .results-screen内のテキストも左寄せにする場合 */
+.results-screen p {
+    text-align: left;
+    padding-left: 20px; /* 少しインデントして見やすく */
+    padding-right: 20px;
+}
+.results-screen h2 {
+    text-align: center;
+}

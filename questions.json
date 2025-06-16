@@ -1,0 +1,785 @@
+[
+  {
+    "id": 1,
+    "type": "MC",
+    "questionText": "No bananas here ___ available.",
+    "choices": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "answer": "are",
+    "feedback_correct": "\u2705 Correct! \"Bananas\" is plural, so the verb must be \"are\".",
+    "feedback_wrong": "\u274c \"Is\" is singular. \"Was\" and \"were\" are past tense, but this sentence is present.",
+    "hintId": "no_plural_noun_agreement",
+    "tags": [
+      "agreement",
+      "countable",
+      "no",
+      "plural"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "MC",
+    "questionText": "Each of the students ___ responsible for their own project.",
+    "choices": [
+      "is",
+      "are",
+      "were",
+      "be"
+    ],
+    "answer": "is",
+    "feedback_correct": "\u2705 Correct! \"Each\" is always treated as singular, so the verb must be \"is\".",
+    "feedback_wrong": "\u274c \"Are\" and \"were\" are plural. \"Be\" is not a valid verb form here.",
+    "hintId": "each_singular_agreement",
+    "tags": [
+      "quantifier",
+      "agreement",
+      "each"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "MC",
+    "questionText": "Some ___ the students were late this morning.",
+    "choices": [
+      "of",
+      "from",
+      "for",
+      "to"
+    ],
+    "answer": "of",
+    "feedback_correct": "\u2705 Correct! Use \"some of the\" when referring to a specific group.",
+    "feedback_wrong": "\u274c Only \"of\" fits grammatically here. \"From,\" \"for,\" and \"to\" are incorrect prepositions in this context.",
+    "hintId": "some_of_definiteness",
+    "tags": [
+      "quantifier",
+      "definiteness",
+      "preposition"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "MC",
+    "questionText": "There were two options. One was fruit, and ___ was meat.",
+    "choices": [
+      "another",
+      "the other",
+      "others",
+      "one more"
+    ],
+    "answer": "the other",
+    "feedback_correct": "\u2705 Correct! When only two items are involved, \"the other\" refers to the second and final one.",
+    "feedback_wrong": "\u274c \"Another\" implies more than two. \"Others\" is plural. \"One more\" is informal and ungrammatical here.",
+    "hintId": "one_another_the_other",
+    "tags": [
+      "pronoun",
+      "definiteness",
+      "quantity",
+      "comparison"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "MC",
+    "questionText": "Neither a teacher nor the students ___ in the classroom.",
+    "choices": [
+      "is",
+      "are",
+      "was",
+      "has"
+    ],
+    "answer": "are",
+    "feedback_correct": "\u2705 Correct! When the subject closest to the verb is plural (\"students\"), use a plural verb.",
+    "feedback_wrong": "\u274c In \"Neither A nor B\" constructions, the verb agrees with the noun closest to it. Here, that's \"students\" \u2192 plural.",
+    "hintId": "neither_nor_agreement",
+    "tags": [
+      "agreement",
+      "neither_nor",
+      "subject_verb"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "MC",
+    "questionText": "All of the information ___ available on the website.",
+    "choices": [
+      "are",
+      "is",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "feedback_correct": "\u2705 Correct! \"Information\" is an uncountable noun, so use a singular verb: \"is\".",
+    "feedback_wrong": "\u274c \"Information\" is uncountable. Even with \"all of\", the verb must stay singular. \"Are\" and \"were\" are plural; \"have\" is incorrect here.",
+    "hintId": "uncountable_noun_agreement",
+    "tags": [
+      "uncountable",
+      "agreement",
+      "quantifier",
+      "all_of"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "MC",
+    "questionText": "Each student must submit ___ own application form.",
+    "choices": [
+      "their",
+      "his or her",
+      "his",
+      "their own"
+    ],
+    "answer": "his or her",
+    "feedback_correct": "\u2705 Correct! \"Each student\" is singular, so we use the singular pronoun \"his or her\".",
+    "feedback_wrong": "\u274c \"Each student\" is grammatically singular. Use \"his or her\" for gender-neutral singular reference. \"Their\" is informal, and \"their own\" is redundant and ungrammatical here.",
+    "hintId": "each_singular_pronoun",
+    "tags": [
+      "pronoun",
+      "agreement",
+      "each",
+      "singular_reference"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "MC",
+    "questionText": "All the students ___ completed the assignment.",
+    "choices": [
+      "has",
+      "have",
+      "did",
+      "was"
+    ],
+    "answer": "have",
+    "feedback_correct": "\u2705 Correct! \"All the students\" is plural, so use the plural verb \"have\".",
+    "feedback_wrong": "\u274c \"Has\" is singular, and \"was\" is past singular. \"Did\" is possible but doesn\u2019t match the form of the verb \"completed\" here.",
+    "hintId": "all_plural_agreement",
+    "tags": [
+      "agreement",
+      "quantifier",
+      "plural",
+      "all"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "MC",
+    "questionText": "No manuscripts ___ available in the archive today.",
+    "choices": [
+      "is",
+      "are",
+      "was",
+      "has"
+    ],
+    "answer": "are",
+    "feedback_correct": "\u2705 Correct! \"Manuscripts\" is a plural noun, so we use the plural verb \"are\".",
+    "feedback_wrong": "\u274c \"Manuscripts\" is plural. Use \"are\" to agree in number. \"Is\", \"was\", and \"has\" are singular verbs.",
+    "hintId": "no_plural_agreement",
+    "tags": [
+      "agreement",
+      "plural",
+      "no_quantifier",
+      "academic_vocab"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "MC",
+    "questionText": "Some of the graduate students ___ planning to attend the conference.",
+    "choices": [
+      "is",
+      "are",
+      "was",
+      "has"
+    ],
+    "answer": "are",
+    "feedback_correct": "\u2705 Correct! \"Some of the graduate students\" is plural and requires a plural verb \u2014 \"are\".",
+    "feedback_wrong": "\u274c Use \"are\" to match the plural subject \"students\". The other verbs are singular and do not agree in number.",
+    "hintId": "some_of_plural_agreement",
+    "tags": [
+      "agreement",
+      "quantifier",
+      "plural",
+      "some_of"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "MC",
+    "questionText": "Either of the proposals ___ acceptable to the committee.",
+    "choices": [
+      "are",
+      "is",
+      "have",
+      "were"
+    ],
+    "answer": "is",
+    "feedback_correct": "\u2705 Correct! \"Either of\" takes a singular verb even though it's followed by a plural noun.",
+    "feedback_wrong": "\u274c \"Either of the proposals\" is grammatically singular, so use \"is\". \"Are\" and \"were\" are plural.",
+    "hintId": "either_of_singular_agreement",
+    "tags": [
+      "agreement",
+      "quantifier",
+      "singular",
+      "either_of"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "MC",
+    "questionText": "Both of the arguments ___ flawed in different ways.",
+    "choices": [
+      "was",
+      "were",
+      "is",
+      "has been"
+    ],
+    "answer": "were",
+    "feedback_correct": "\u2705 Correct! \"Both of\" refers to two items together, so use the plural verb \"were\".",
+    "feedback_wrong": "\u274c \"Both of\" is always plural. Use \"were\", not singular verbs like \"was\" or \"is\".",
+    "hintId": "both_of_plural_agreement",
+    "tags": [
+      "agreement",
+      "quantifier",
+      "plural",
+      "both_of"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "MC",
+    "questionText": "None of the students ___ completed the assignment on time.",
+    "choices": [
+      "has",
+      "have",
+      "is",
+      "was"
+    ],
+    "answer": "have",
+    "feedback_correct": "\u2705 Correct! \"None of the students\" is followed by a plural countable noun, so we use the plural verb \"have\".",
+    "feedback_wrong": "\u274c The noun \"students\" is plural, so the verb must also be plural. Use \"have\", not singular verbs like \"has\" or \"is\".",
+    "hintId": "quantifier_noun_agreement",
+    "tags": [
+      "agreement",
+      "quantifier",
+      "plural",
+      "none_of"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "MC",
+    "questionText": "Most of the data ___ been processed correctly.",
+    "choices": [
+      "has",
+      "have",
+      "was",
+      "are"
+    ],
+    "answer": "has",
+    "feedback_correct": "\u2705 Correct! \"Data\" is usually treated as uncountable in modern English, so \"has\" is correct.",
+    "feedback_wrong": "\u274c In modern usage, \"data\" is often treated as an uncountable noun, so use \"has\" \u2014 not \"have\" or \"are\".",
+    "hintId": "quantifier_noun_agreement",
+    "tags": [
+      "quantifier",
+      "uncountable",
+      "modern_english"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "MC",
+    "questionText": "Several ___ in the program were offered internships abroad.",
+    "choices": [
+      "student",
+      "students",
+      "student's",
+      "student\u2019s"
+    ],
+    "answer": "students",
+    "feedback_correct": "\u2705 Correct! \"Several\" must be followed by a plural noun \u2014 \"students\".",
+    "feedback_wrong": "\u274c \"Several\" is a quantifier that requires a plural noun (not singular or possessive). The correct form is \"students\".",
+    "hintId": "quantifier_plural_agreement",
+    "tags": [
+      "quantifier",
+      "plural_noun",
+      "agreement"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "MC",
+    "questionText": "The number of international students ___ increased significantly this year.",
+    "choices": [
+      "have",
+      "has",
+      "were",
+      "are"
+    ],
+    "answer": "has",
+    "feedback_correct": "\u2705 Correct! \u201cThe number of\u201d is treated as a singular subject, so use \u201chas\u201d.",
+    "feedback_wrong": "\u274c \u201cThe number of\u201d refers to a total count and takes a singular verb (has). \u201cA number of\u201d would use a plural verb.",
+    "hintId": "number_expression_agreement",
+    "tags": [
+      "number_of",
+      "subject_verb_agreement",
+      "quantifier"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "MC",
+    "questionText": "A number of researchers ___ expressed interest in the conference.",
+    "choices": [
+      "has",
+      "is",
+      "was",
+      "have"
+    ],
+    "answer": "have",
+    "feedback_correct": "\u2705 Correct! \u201cA number of\u201d is followed by a plural noun, and takes a plural verb (\u201chave\u201d).",
+    "feedback_wrong": "\u274c \u201cA number of\u201d means \u201cseveral\u201d and takes a plural verb. Use \u201chave\u201d here.",
+    "hintId": "number_expression_agreement",
+    "tags": [
+      "number_of",
+      "subject_verb_agreement",
+      "quantifier"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "MC",
+    "questionText": "She has very ___ experience in academic writing, so she asked for help.",
+    "choices": [
+      "few",
+      "little",
+      "less",
+      "fewer"
+    ],
+    "answer": "little",
+    "feedback_correct": "\u2705 Correct! \u201cExperience\u201d is uncountable, so use \u201clittle\u201d (not \u201cfew\u201d).",
+    "feedback_wrong": "\u274c Use \u201clittle\u201d with uncountable nouns like \u201cexperience.\u201d \u201cFew\u201d is used with countable nouns like \u201cproblems\u201d or \u201cstudents.\u201d",
+    "hintId": "few_vs_little",
+    "tags": [
+      "quantifier",
+      "countability",
+      "little_vs_few"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "MC",
+    "questionText": "Few applicants ___ the required qualifications.",
+    "choices": [
+      "has",
+      "had",
+      "have",
+      "is"
+    ],
+    "answer": "have",
+    "feedback_correct": "\u2705 Correct! \u201cApplicants\u201d is countable and plural, so use \u201cfew\u201d + have.",
+    "feedback_wrong": "\u274c \u201cFew\u201d is used with plural countable nouns, and the verb must agree: \u201cFew applicants have...\u201d",
+    "hintId": "few_vs_little",
+    "tags": [
+      "quantifier",
+      "countability",
+      "subject_verb_agreement"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "MC",
+    "questionText": "Quite a few students ___ submitted their papers early.",
+    "choices": [
+      "has",
+      "was",
+      "have",
+      "is"
+    ],
+    "answer": "have",
+    "feedback_correct": "\u2705 Correct! \u201cQuite a few\u201d behaves like \u201cmany,\u201d so it takes a plural noun and plural verb.",
+    "feedback_wrong": "\u274c \u201cQuite a few\u201d means \u201cmany\u201d and is followed by a plural noun + plural verb: \u201cstudents have\u201d.",
+    "hintId": "quite_a_few_plural",
+    "tags": [
+      "quantifier",
+      "subject_verb_agreement",
+      "advanced_phrasing"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "MC",
+    "questionText": "I don't have ___ money, so I can't afford that course.",
+    "choices": [
+      "many",
+      "much",
+      "a few",
+      "few"
+    ],
+    "answer": "much",
+    "feedback_correct": "\u2705 Correct! In negative sentences, \u201cmuch\u201d is used with uncountable nouns like \u201cmoney.\u201d",
+    "feedback_wrong": "\u274c Use \u201cmuch\u201d in negative sentences with uncountable nouns like \u201cmoney.\u201d \u201cMany\u201d is for countable nouns.",
+    "hintId": "much_negative_usage",
+    "tags": [
+      "quantifier",
+      "uncountable",
+      "negative_sentence"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "TF",
+    "questionText": "Neither the students nor the teacher are present in the classroom.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "FALSE",
+    "feedback_correct": "\u2705 Correct! The verb should agree with the subject closest to it. Since \"teacher\" is singular, use \"is\".",
+    "feedback_wrong": "\u274c Incorrect. The verb must agree with the closest subject (\"teacher\"), so it should be \"is present\".",
+    "hintId": "neither_nor_agreement",
+    "tags": [
+      "agreement",
+      "neither_nor",
+      "subject_verb"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "TF",
+    "questionText": "Each of the students are responsible for their own work.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "FALSE",
+    "feedback_correct": "\u2705 Correct! \"Each\" is singular and takes a singular verb, so it should be \"is responsible\".",
+    "feedback_wrong": "\u274c Incorrect. \"Each\" is singular and must be followed by a singular verb, not \"are\".",
+    "hintId": "each_of_singular_agreement",
+    "tags": [
+      "agreement",
+      "quantifier",
+      "singular",
+      "each_of"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "TF",
+    "questionText": "None of the books is missing from the shelf.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "FALSE",
+    "feedback_correct": "\u2705 Correct! \u201cNone of\u201d with plural nouns typically takes a plural verb: \u201care missing\u201d.",
+    "feedback_wrong": "\u274c Incorrect. With plural nouns, \u201cnone of\u201d usually takes a plural verb, so \u201cis missing\u201d is wrong here.",
+    "hintId": "quantifier_noun_agreement",
+    "tags": [
+      "agreement",
+      "quantifier",
+      "plural",
+      "none_of"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "TF",
+    "questionText": "Some of students have completed the project on time.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "FALSE",
+    "feedback_correct": "\u2705 Correct! When using \u201csome\u201d with a plural noun without \u201cof,\u201d no article or determiner should follow. It should be \u201cSome students...\u201d",
+    "feedback_wrong": "\u274c Incorrect. \u201cSome of students\u201d is incorrect because \u201csome of\u201d must be followed by a definite noun phrase like \u201csome of the students.\u201d",
+    "hintId": "some_of_definiteness",
+    "tags": [
+      "quantifier",
+      "definiteness",
+      "plural"
+    ]
+  },
+  ,
+ {
+    "id": 27,
+    "type": "MC",
+    "questionText": "( ___ ) both parents are quite well-educated.",
+    "choices": [
+      "Both their parents",
+      "Their both parents",
+      "Their parents both",
+      "Their parents of both"
+    ],
+    "answer": "Both their parents",
+    "feedback_correct": "\u2705 Correct!",
+    "feedback_wrong": "\u274c Incorrect.",
+    "hintId": "both_possessive_word_order",
+    "tags": [
+      "word_order",
+      "possessive",
+      "both"
+    ]
+  },,{
+    "id": 28,
+    "type": "MC",
+    "questionText": "The bus arrives ___ two hours.",
+    "choices": [
+      "every",
+      "each",
+      "all",
+      "any"
+    ],
+    "answer": "every",
+    "feedback_correct": "\u2705 Correct! Use \"every\" with plural time expressions like \"two hours\".",
+    "feedback_wrong": "\u274c \"Every\" is the correct quantifier for repeated time intervals, not \"each,\" \"all,\" or \"any\".",
+    "hintId": "every_plural_time",
+    "tags": [
+      "quantifier",
+      "time_expression",
+      "plural"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "MC",
+    "questionText": "Either of the brothers ___ a tall nose.",
+    "choices": [
+      "have",
+      "has",
+      "are",
+      "is"
+    ],
+    "answer": "has",
+    "feedback_correct": "\u2705 Correct! \u201cEither\u201d is singular, so use the singular verb \u201chas\u201d.",
+    "feedback_wrong": "\u274c Incorrect. \u201cEither\u201d requires a singular verb, so \u201chave\u201d and \u201care\u201d are wrong.",
+    "hintId": "either_of_singular_agreement",
+    "tags": [
+      "agreement",
+      "quantifier",
+      "singular",
+      "either_of"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "MC",
+    "questionText": "Each of the proposals ___ being considered separately.",
+    "choices": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "feedback_correct": "\u2705 Correct! 'Each' is singular, so we use 'is' here.",
+    "feedback_wrong": "\u274c 'Each' is singular, not plural, so 'are' and 'have' are incorrect.",
+    "hintId": "each_singular_pronoun",
+    "tags": [
+      "agreement",
+      "each",
+      "singular"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "TF",
+    "questionText": "Neither the manager or the employees are available for the meeting.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "FALSE",
+    "feedback_correct": "\u2705 Correct! The correct correlative conjunction is \u201cNeither\u2026nor,\u201d not \u201cNeither\u2026or.\u201d",
+    "feedback_wrong": "\u274c Incorrect. \u201cNeither\u2026or\u201d is ungrammatical; use \u201cNeither\u2026nor\u201d for correct sentences.",
+    "hintId": "neither_nor_agreement",
+    "tags": [
+      "agreement",
+      "correlative_conjunction",
+      "neither_nor"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "MC",
+    "questionText": "Some students like the class, and ___ do not.",
+    "choices": [
+      "others",
+      "the others",
+      "another",
+      "one"
+    ],
+    "answer": "others",
+    "feedback_correct": "\u2705 Correct! 'Others' refers to some additional members, not necessarily all remaining.",
+    "feedback_wrong": "\u274c 'The others' implies the full remaining group, but the sentence makes a general comparison.",
+    "hintId": "some_others_distinction",
+    "tags": [
+      "quantifier",
+      "others",
+      "agreement"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "MC",
+    "questionText": "Some of the students passed the exam, while ___ did not.",
+    "choices": [
+      "others",
+      "the others",
+      "one",
+      "another"
+    ],
+    "answer": "the others",
+    "feedback_correct": "\u2705 Correct! 'The others' refers to the remaining known group who didn't pass.",
+    "feedback_wrong": "\u274c 'Others' implies some but not necessarily all \u2014 'the others' is more specific and accurate here.",
+    "hintId": "some_others_distinction",
+    "tags": [
+      "quantifier",
+      "the_others",
+      "contrast"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "MC",
+    "questionText": "There were two books on the table. I took one, and ___ is still there.",
+    "choices": [
+      "another",
+      "the other",
+      "others",
+      "one"
+    ],
+    "answer": "the other",
+    "feedback_correct": "\u2705 Correct! \u201cThe other\u201d refers to the second item in a set of two.",
+    "feedback_wrong": "\u274c \u201cAnother\u201d is used for an additional item, not the second of two.",
+    "hintId": "one_another_other_distinction",
+    "tags": [
+      "pronouns",
+      "quantifier",
+      "singular"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "MC",
+    "questionText": "I don\u2019t like this pen. Can I borrow ___ one?",
+    "choices": [
+      "another",
+      "the other",
+      "one",
+      "others"
+    ],
+    "answer": "another",
+    "feedback_correct": "\u2705 Correct! \u201cAnother\u201d means an additional one, not previously mentioned.",
+    "feedback_wrong": "\u274c \u201cThe other\u201d refers to a specific other item already known.",
+    "hintId": "one_another_other_distinction",
+    "tags": [
+      "pronouns",
+      "quantifier",
+      "singular"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "MC",
+    "questionText": "One of the students ___ responsible for organizing the event.",
+    "choices": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "answer": "is",
+    "feedback_correct": "\u2705 Correct! \u201cOne\u201d is singular, so it requires the singular verb \u201cis\u201d.",
+    "feedback_wrong": "\u274c Incorrect. The subject \u201cOne\u201d is singular, so use \u201cis\u201d rather than \u201care\u201d.",
+    "hintId": "singular_subject_agreement",
+    "tags": [
+      "agreement",
+      "quantifier",
+      "singular"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "MC",
+    "questionText": "Some of the students ___ completed the assignment early.",
+    "choices": [
+      "has",
+      "have",
+      "was",
+      "is"
+    ],
+    "answer": "have",
+    "feedback_correct": "\u2705 Correct! \u201cSome of the students\u201d refers to multiple people, so use the plural verb \u201chave.\u201d",
+    "feedback_wrong": "\u274c Incorrect. The subject is plural, so use \u201chave\u201d rather than \u201chas.\u201d",
+    "hintId": "quantifier_noun_agreement",
+    "tags": [
+      "agreement",
+      "quantifier",
+      "plural"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "MC",
+    "questionText": "Which book do you want to borrow? This one looks not so interesting. So, I will borrow ___ one.",
+    "choices": [
+      "another",
+      "the other",
+      "others",
+      "their"
+    ],
+    "answer": "the other",
+    "feedback_correct": "\u2705 Correct! \u201cThe other one\u201d refers to the second specific item among two known options.",
+    "feedback_wrong": "\u274c Incorrect. \u201cThe other one\u201d is used when referring to a specific, previously mentioned item, not \u201canother\u201d or \u201cothers.\u201d",
+    "hintId": "another_vs_other",
+    "tags": [
+      "quantifier",
+      "pronouns",
+      "singular"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "MC",
+    "questionText": "This apple is a bit rotten. I will pick ___ one.",
+    "choices": [
+      "another",
+      "the other",
+      "others",
+      "their"
+    ],
+    "answer": "another",
+    "feedback_correct": "\u2705 Correct! \u201cAnother one\u201d means an additional, different item.",
+    "feedback_wrong": "\u274c Incorrect. \u201cAnother\u201d is used when selecting an additional item, not \u201cthe other\u201d or \u201cothers.\u201d \u201cTheir\u201d is a possessive pronoun, so it doesn\u2019t fit here.",
+    "hintId": "another_vs_other",
+    "tags": [
+      "quantifier",
+      "pronouns",
+      "singular"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "MC",
+    "questionText": "Some people are smart, and ___ are honest.",
+    "choices": [
+      "some",
+      "others",
+      "the others",
+      "one"
+    ],
+    "answer": "some",
+    "feedback_correct": "\u2705 Correct! Both \u201csome\u201d refer to different subsets without implying the rest of the group.",
+    "feedback_wrong": "\u274c Incorrect. Using \u201cothers\u201d or \u201cthe others\u201d implies contrasting with the rest of the group explicitly.",
+    "hintId": "some_others_distinction",
+    "tags": [
+      "pronouns",
+      "quantifier",
+      "plural"
+    ]
+  }
+]
